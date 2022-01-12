@@ -26,15 +26,15 @@ operandos , este debe dar un resultado con decimales double
 %:
 módulo, resto de la división entre operando1 y operando2.*/ 
 		
-		double n1, n2;
+		int n1, n2;
 		String num1 = JOptionPane.showInputDialog("Ingrese valor 1: ");
 		String num2 = JOptionPane.showInputDialog("Ingrese valor 2: ");
 		String operando = JOptionPane.showInputDialog("Ingrese operacion aritmética a realizar con los siguientes signos para : suma (+), resta(-), multiplicación (*), división (/), exponente (^) y módulo (%)");
 		
 		//JOptionPane.showMessageDialog(null, operando);
 		
-		n1 = Double.parseDouble(num1);
-		n2 = Double.parseDouble(num2);
+		n1 = Integer.parseInt(num1);
+		n2 = Integer.parseInt(num2);
 	
 		switch(operando) {
 			case "+":

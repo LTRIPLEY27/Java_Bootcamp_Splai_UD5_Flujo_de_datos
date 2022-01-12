@@ -19,7 +19,8 @@ método pow de Math*/
 		String radius = JOptionPane.showInputDialog("Indique el radio : ");
 		
 		radio = Double.parseDouble(radius);
-		JOptionPane.showMessageDialog(null, "El área del circulo con radio " + radio + " es igual a : " + ((PI * radio) * 2));
+		//JOptionPane.showMessageDialog(null, "El área del circulo con radio " + radio + " es igual a : " + (PI * (radio * radio)));
+		JOptionPane.showMessageDialog(null, "El área del circulo con radio " + radio + " es igual a : " + (PI * Math.pow(radio, 2)));
 	}
 
 }

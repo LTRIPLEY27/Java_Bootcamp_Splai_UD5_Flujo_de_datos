@@ -13,7 +13,7 @@ public class Ejercicio3App {
 Modifica la aplicación anterior, para que nos pida el nombre que queremos introducir
 (recuerda usar JOptionPane*/
 
-String name;
+		String name;
 		
 		name = JOptionPane.showInputDialog("Indica tu nombre, por favor : ");
 		JOptionPane.showMessageDialog(null, "Bienvenido  " + name);

@@ -19,7 +19,7 @@ de salida (3 intentos y si acierta sale, aunque le queden intentos).*/
 		String password = "";
 		
 		do {
-			password = JOptionPane.showInputDialog("Ingrese password : ");
+			password = JOptionPane.showInputDialog("Ingrese password, dispones de sólo 3 intentos : ");
 			if(password.equals(pass)) {
 				JOptionPane.showMessageDialog(null, " Enhorabuena");
 				break;
