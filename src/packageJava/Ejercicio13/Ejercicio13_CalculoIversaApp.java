@@ -47,7 +47,9 @@ módulo, resto de la división entre operando1 y operando2.*/
 				JOptionPane.showMessageDialog(null, "La multiplicación de valor1 : " + n1 + " valor2 " + n2 + " es igual a: " + (n1 * n2) );
 				break;
 			case "/":
-				JOptionPane.showMessageDialog(null, "La división de valor1 : " + n1 + " valor2  " + n2 + " es igual a: " + (n1 / n2) );
+				double a = n1; // CONVERSION IMPLÍCITA DE INT A DOUBLE
+				double b = n2;
+				JOptionPane.showMessageDialog(null, "La división de valor1 : " + a + " valor2  " + b + " es igual a: " + (a / b) );
 				break;
 			case "^":
 				JOptionPane.showMessageDialog(null, "La potencia de valor1 : " + n1 + " valor2  " + n2 + " es igual a: " + Math.pow(n1, n2) );
