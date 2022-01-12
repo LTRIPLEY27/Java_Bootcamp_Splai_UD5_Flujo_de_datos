@@ -23,9 +23,9 @@ funciona.*/
 		b = Integer.parseInt(num2);
 		
 		if(a > b) {
-			JOptionPane.showMessageDialog(null, "El número " + a + " es mayor a " + b);
+			JOptionPane.showMessageDialog(null, "El número 1: " + a + " es mayor a número 2 : " + b);
 		} else {
-			JOptionPane.showMessageDialog(null, "El número " + b + " es mayor a " + a);
+			JOptionPane.showMessageDialog(null, "El número 2 : " + b + " es mayor a número 1: " + a);
 		}
 	}
 

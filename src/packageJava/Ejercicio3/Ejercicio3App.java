@@ -3,7 +3,7 @@ package packageJava.Ejercicio3;
 import javax.swing.JOptionPane;
 
 /**@author isabel Calzadilla
- * Ejercicio 1: control de flujo
+ * Ejercicio 3: control de flujo
  * **/
 
 public class Ejercicio3App {
