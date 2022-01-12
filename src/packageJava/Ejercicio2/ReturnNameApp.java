@@ -1,4 +1,4 @@
-package packageJava.StringName;
+package packageJava.Ejercicio2;
 
 import javax.swing.JOptionPane;
 

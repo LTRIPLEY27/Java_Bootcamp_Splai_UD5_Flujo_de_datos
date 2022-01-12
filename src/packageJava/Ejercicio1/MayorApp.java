@@ -1,4 +1,4 @@
-package packageJava.MajorThen;
+package packageJava.Ejercicio1;
 
 import javax.swing.*;
 
